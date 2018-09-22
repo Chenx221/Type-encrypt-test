@@ -1,0 +1,10 @@
+H:\codejm\Test-Code\Test-Code\bin\Debug\Test-Code.exe
+H:\codejm\Test-Code\Test-Code\bin\Debug\Test-Code.pdb
+H:\codejm\Test-Code\Test-Code\bin\Debug\Test-Code.xml
+H:\codejm\Test-Code\Test-Code\obj\x86\Debug\Test_Code.Form1.resources
+H:\codejm\Test-Code\Test-Code\obj\x86\Debug\Test_Code.About.resources
+H:\codejm\Test-Code\Test-Code\obj\x86\Debug\Test_Code.Resources.resources
+H:\codejm\Test-Code\Test-Code\obj\x86\Debug\Test-Code.vbproj.GenerateResource.Cache
+H:\codejm\Test-Code\Test-Code\obj\x86\Debug\Test-Code.exe
+H:\codejm\Test-Code\Test-Code\obj\x86\Debug\Test-Code.xml
+H:\codejm\Test-Code\Test-Code\obj\x86\Debug\Test-Code.pdb
