@@ -27,6 +27,7 @@ Partial Class About
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -55,7 +56,7 @@ Partial Class About
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(167, 24)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Ver:0.01" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Build Time: 2018/9/22 18:04"
+        Me.Label2.Text = "Ver:0.02 " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Build Time: 2018/10/2 20:30"
         '
         'PictureBox1
         '
@@ -67,15 +68,26 @@ Partial Class About
         Me.PictureBox1.TabIndex = 3
         Me.PictureBox1.TabStop = False
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(303, 94)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(66, 30)
+        Me.Button2.TabIndex = 4
+        Me.Button2.Text = "检查更新"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'About
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(395, 126)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "About"
         Me.Text = "关于"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -87,4 +99,5 @@ Partial Class About
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents Button2 As System.Windows.Forms.Button
 End Class
